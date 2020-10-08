@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Age calculator</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>Enter your DOB</td>
+			<td><input type="date" name=""></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="ShowDate" onclick="calculateAge()"></td>
+		</tr>
+	</table>
+	<h1>Your age is:-</h1>
+	< 
+</body>
+<script type="text/javascript">
+	function calculateAge(dob){
+		var currDate = new Date();
+		var dateOfBirth = new Date(dob);
+		var ageY = currDate.getFullYear() - dateOfBirth.getFullYear();
+		var ageM = currDate.getMonth() - dateOfBirth.getMonth();
+		if(ageM < 0 || (m === 0 && currDate.getDate() < dateOfBirth.getDate())){
+			ageY--;
+		}
+		alert("Your age is:- "+ageY+"Years"+ageM+"Months");
+
+
+	}
+</script>
+</html>

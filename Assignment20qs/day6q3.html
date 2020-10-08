@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Push</title>
+</head>
+<body>
+	<h1>Souvick Mondal</h1>
+	<ul id="mainList"></ul>
+	<input  id="search1" type="text" name="search" placeholder="Enter What You want to search">
+	<button onclick="func()">Search</button>
+</body>
+<script type="text/javascript">
+	var arr= ["sou","sup"];
+	arr.push("Souvick");
+	var listEl = document.getElementById('mainList');
+	for(var i=0;i < arr.length;i++){
+		var ele = document.createElement('li');
+		ele.innerHTML=arr[i];
+		listEl.appendChild(ele);
+	}
+
+	function func(){
+		console.log("button Clicked")
+		var elem = document.getElementById('search1');
+		var t = elem.value;
+		console.log(t);
+	}
+
+	console.log(arr);
+</script>
+</html>

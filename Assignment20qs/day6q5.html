@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date</title>
+</head>
+<body>
+	<h1 id="a"></h1>
+</body>
+<script type="text/javascript">
+	var d = new Date();
+	d.setSeconds(d.getSeconds()+10);
+	var s = d.toString();
+	document.getElementById('a').innerHTML = d;
+	// document.write(d);
+</script>
+</html>

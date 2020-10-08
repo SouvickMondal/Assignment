@@ -1,0 +1,28 @@
+1] how to filter the array data in javascript react--- Done
+2] how get parent element javascript--- Done
+3] add all elements in array javascript-- Done
+4] add an element to an array javascript---Done
+5] add 10 seconds to date javascript--Done
+6] add 10px to width js--done
+7] add 2 class names react--done
+8] add 2 for hours in date timestamp js--done
+9] add 7 days in date using jquery--done
+10] add a route to a buttoin in angular--done
+11] add a slash to string in javascript--done
+12] how to run a filter having object [] in reactjs--done
+13] how to use filter when returning jsx--done
+14] Render JSX--done
+15] How to Use JavaScript in JSX--done{}
+16] How to Use array in JSX--done[]
+17] How to define a component--done extends React.Component
+18] What is the use of this.props.children---to access all the elements between opening and closing tags of the base element.
+19] Finding a DOM node--- findDOMNode(this.refs.refname)---<div ref="refname"></div>
+20] Write example to use this.state--done
+21] Component Lifecycle--done--- 
+
+Methods:- 1. Mounting:- render(),componentDidMount(),constructor()
+	2. Update:- componentDidUpdate(),render()
+	3.Unmounting:- componentWillUnmount()
+	4. Error Handling:- componentDidCatch(), static getDerivedStateFromError().
+
+

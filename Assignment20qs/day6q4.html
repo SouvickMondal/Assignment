@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add All Ele</title>
+</head>
+<body>
+	<h1>Sum of All elements of an Array</h1>
+	<p id="a"></p>
+</body>
+<script type="text/javascript">
+	var arr=[4,5,10,23];
+	var res=arr.reduce((a,b)=>a+b,0);
+	document.getElementById('a').innerHTML = res;   
+</script>
+</html>
